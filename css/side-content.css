@@ -1,0 +1,11 @@
+.sideContent {
+    grid-area: sidecontent;    
+    margin: 2em;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+
+li.sideContent:nth-child(odd) {
+    margin:0.5em;
+}

@@ -1,0 +1,58 @@
+header {
+    grid-area: hd;    
+    background-image: url('../images/header-background.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-size: 1.5em;
+    color:white;
+}
+
+
+menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.menu-item {
+    display: inline-block;
+    margin:2em;
+}
+
+
+#title {
+    font-size: 2rem;
+    margin: 1em;
+    font-weight: bold;
+}
+
+
+header >h1{
+    color:black;
+}
+
+
+.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    font-size: 1.1em;
+}
+
+
+@media(max-width:700px) {
+    .menu-item {
+        display: inline-block;
+        margin: 0.5em;
+    }
+    
+    
+    #title {
+        font-size: 1rem;
+        margin: 0;
+        font-weight: bold;
+    }
+}
